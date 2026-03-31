@@ -11,6 +11,7 @@ A) Fitur Utama Penyortiran & Sensor (Perangkat Keras & IoT)
 6. Monitoring Daya/Baterai: Indikator untuk memantau sisa daya atau baterai dari modul IoT agar perangkat tidak mati secara tiba-tiba.
 
 C) Fitur Aplikasi & Antarmuka Pengguna (UI)
+
 12. Sistem Login Terdaftar: Portal masuk ke aplikasi yang hanya bisa diakses oleh penjaga/petugas kebersihan dengan ID yang sudah terdaftar di database.
 13. Pembatasan Hak Akses (Role-Based Access): Pemisahan antarmuka dan fitur antara pengguna umum (hanya bisa melihat edukasi atau status tong sampah) dan penjaga (memiliki akses operasional).
 14. Peringatan Akses Ditolak: Menampilkan pesan error pada layar UI perangkat maupun aplikasi jika identitas/kartu yang di-tap tidak sesuai.
@@ -19,6 +20,7 @@ C) Fitur Aplikasi & Antarmuka Pengguna (UI)
 17. Peta Lokasi Tong Sampah: Fitur visual (map) di UI admin untuk melihat letak seluruh tong sampah beserta statusnya (penuh, kosong, atau error).
 
 D) Fitur Manajemen & Pelaporan Sistem
+
 18. Log Aktivitas Operasional: Pencatatan otomatis yang menyimpan riwayat data mengenai penjaga siapa yang login, serta kapan tong sampah tersebut dikosongkan.
 19. Fitur Reset/Pengosongan: Tombol perintah di aplikasi bagi petugas untuk mereset indikator persentase sampah kembali ke 0% setelah fisik tong sampah dikosongkan.
 20. Database Penjaga: Basis data untuk mengelola, menambah, atau menghapus daftar petugas kebersihan yang diberikan wewenang.
