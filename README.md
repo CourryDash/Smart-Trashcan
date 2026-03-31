@@ -1,5 +1,12 @@
 # Smart-Trashcan
-Project Agile [Kelompok O7] - due 31 Maret 2026
+Project Agile [Kelompok O7]
+
+Penjelasan Project :
+Project ini adalah pengembangan tempat sampah pintar (Smart Trashcan) berbasis Internet of Things (IoT) untuk mengatasi masalah penumpukan sampah dan pengelolaan yang kurang baik. Alat ini mampu menyortir sampah secara otomatis ke dalam tiga kategori (Organik, Anorganik, dan B3) guna menurunkan persentase sampah yang tidak terkelola. 
+
+Selain berfokus pada efisiensi daur ulang, project ini juga menonjolkan sistem keamanan tingkat tinggi mengingat maraknya fasilitas umum yang hilang. Tempat sampah ini dilengkapi sistem verifikasi akses untuk petugas , pelacakan lokasi, hingga tindakan preventif berupa kejut listrik dan sirine jika tempat sampah dipindahkan dari koordinatnya, yang terintegrasi langsung dengan laporan ke kepolisian terdekat.
+
+===
 
 Fitur-fitur : 
 A) Fitur Utama Penyortiran & Sensor (Perangkat Keras & IoT)
@@ -33,3 +40,23 @@ D) Fitur Manajemen & Pelaporan Sistem
 19. Fitur Reset/Pengosongan: Tombol perintah di aplikasi bagi petugas untuk mereset indikator persentase sampah kembali ke 0% setelah fisik tong sampah dikosongkan.
 20. Database Penjaga: Basis data untuk mengelola, menambah, atau menghapus daftar petugas kebersihan yang diberikan wewenang.
 21. Laporan dan Analitik Data: Fitur yang mengolah data dari server pusat untuk menampilkan grafik volume sampah harian atau mingguan guna memantau tingkat efisiensi daur ulang.
+
+===
+
+Timeline Pengerjaan Fitur (Agile/Scrum Approach)
+Pengembangan dilakukan menggunakan metode Agile dengan pembagian Sprint (berdurasi 2 minggu per sprint):
+
+- Sprint 1: Core IoT & Database (Minggu 1 - 2)
+Target Selesai: Fitur 1 (Penyortiran), Fitur 9 (Database Sampah), Fitur 11 (Track Progress), Fitur 16 (Kapasitas Spesifik).
+
+- Sprint 2: Security & Emergency Protocol (Minggu 3 - 4)
+Target Selesai: Fitur 2 (Keamanan Aktif), Fitur 14 (GPS Tracking), Fitur 15 (Laporan Polisi).
+
+- Sprint 3: Authentication & User Management (Minggu 5 - 6)
+Target Selesai: Fitur 4 (Login Penjaga), Fitur 8 (Hak Akses), Fitur 10 (Validasi ID), Fitur 12 (Database Penjaga), Fitur 13 (Error Identitas).
+
+- Sprint 4: Application Dashboard & Operations (Minggu 7 - 8)
+Target Selesai: Fitur 3 (Notifikasi Penuh), Fitur 5 (Log Aktivitas), Fitur 6 (Reset Kapasitas), Fitur 7 (UI Dashboard).
+
+- Sprint 5: System Polish & Advanced Monitoring (Minggu 9 - 10)
+Target Selesai: Fitur 17 (Kesehatan Sensor), Fitur 18 (Peringatan Mekanik), Fitur 19 (Monitoring Daya), Fitur 20 (Peta Tong Sampah), Fitur 21 (Analitik Data).
