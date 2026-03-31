@@ -10,6 +10,14 @@ A) Fitur Utama Penyortiran & Sensor (Perangkat Keras & IoT)
 5. Peringatan Kemacetan Mekanik: Notifikasi sistem jika motor/servo penyortir sampah macet atau terganjal.
 6. Monitoring Daya/Baterai: Indikator untuk memantau sisa daya atau baterai dari modul IoT agar perangkat tidak mati secara tiba-tiba.
 
+B) Fitur Keamanan & Penanganan Insiden
+
+7. Verifikasi Akses Petugas (RFID): Sistem penguncian yang memastikan hanya petugas berwenang yang dapat membuka dan mengosongkan tong sampah menggunakan verifikasi kartu RFID.
+8. Kejut Listrik Preventif: Fitur keamanan yang menembakkan kejut listrik non-mematikan untuk melumpuhkan oknum jika tong sampah dipaksa buka atau berpindah koordinat.
+9. Sirine Peringatan: Alarm yang secara otomatis berbunyi untuk memancing perhatian orang di sekitar apabila terjadi pelanggaran keamanan.
+10. Pelacakan Lokasi (GPS): Sensor lokasi untuk mendeteksi jika tempat sampah berpindah koordinat dari tempat asalnya.
+11. Notifikasi Darurat Polisi: Fitur auto-dispatch yang langsung mengirimkan informasi ke kantor polisi terdekat saat terjadi upaya pencurian tong sampah.
+
 C) Fitur Aplikasi & Antarmuka Pengguna (UI)
 
 12. Sistem Login Terdaftar: Portal masuk ke aplikasi yang hanya bisa diakses oleh penjaga/petugas kebersihan dengan ID yang sudah terdaftar di database.
