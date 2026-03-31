@@ -2,6 +2,7 @@
 Project Agile [Kelompok O7]
 
 Penjelasan Project :
+
 Project ini adalah pengembangan tempat sampah pintar (Smart Trashcan) berbasis Internet of Things (IoT) untuk mengatasi masalah penumpukan sampah dan pengelolaan yang kurang baik. Alat ini mampu menyortir sampah secara otomatis ke dalam tiga kategori (Organik, Anorganik, dan B3) guna menurunkan persentase sampah yang tidak terkelola. 
 
 Selain berfokus pada efisiensi daur ulang, project ini juga menonjolkan sistem keamanan tingkat tinggi mengingat maraknya fasilitas umum yang hilang. Tempat sampah ini dilengkapi sistem verifikasi akses untuk petugas , pelacakan lokasi, hingga tindakan preventif berupa kejut listrik dan sirine jika tempat sampah dipindahkan dari koordinatnya, yang terintegrasi langsung dengan laporan ke kepolisian terdekat.
@@ -9,6 +10,7 @@ Selain berfokus pada efisiensi daur ulang, project ini juga menonjolkan sistem k
 ===
 
 Fitur-fitur : 
+
 A) Fitur Utama Penyortiran & Sensor (Perangkat Keras & IoT)
 1. Penyortiran Otomatis: Sistem yang menyortir sampah secara otomatis berdasarkan jenisnya, yaitu organik, anorganik, dan B3.
 2. Database Sampah: Basis data cerdas yang menyimpan referensi klasifikasi sampah untuk membantu sensor (kamera dan inframerah) dalam mendeteksi jenis sampah.
