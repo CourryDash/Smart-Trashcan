@@ -48,17 +48,73 @@ D) Fitur Manajemen & Pelaporan Sistem
 Timeline Pengerjaan Fitur (Agile/Scrum Approach)
 Pengembangan dilakukan menggunakan metode Agile dengan pembagian Sprint (berdurasi 2 minggu per sprint):
 
-- Sprint 1: Core IoT & Database (Minggu 1 - 2)
-Target Selesai: Fitur 1 (Penyortiran), Fitur 9 (Database Sampah), Fitur 11 (Track Progress), Fitur 16 (Kapasitas Spesifik).
+- Sprint 1: "The Brain & The Shell" (Fondasi Dasar)
+Fokus pada fungsi inti: Bisa membedakan sampah dan punya tempat menyimpannya.
 
-- Sprint 2: Security & Emergency Protocol (Minggu 3 - 4)
-Target Selesai: Fitur 2 (Keamanan Aktif), Fitur 14 (GPS Tracking), Fitur 15 (Laporan Polisi).
+Target (Goal): Alat bisa mengenali satu jenis sampah dan datanya tersimpan di database.
 
-- Sprint 3: Authentication & User Management (Minggu 5 - 6)
-Target Selesai: Fitur 4 (Login Penjaga), Fitur 8 (Hak Akses), Fitur 10 (Validasi ID), Fitur 12 (Database Penjaga), Fitur 13 (Error Identitas).
+Fitur yang diambil: 
+Fitur 2: Database Sampah (versi awal/MVP).
+Fitur 1: Penyortiran Otomatis (mekanik dasar).
+Fitur 20: Database Penjaga (agar ada yang bisa akses sistem).
 
-- Sprint 4: Application Dashboard & Operations (Minggu 7 - 8)
-Target Selesai: Fitur 3 (Notifikasi Penuh), Fitur 5 (Log Aktivitas), Fitur 6 (Reset Kapasitas), Fitur 7 (UI Dashboard).
+Kenapa? Karena tanpa database sampah, sensor tidak tahu apa yang harus dilakukan.
 
-- Sprint 5: System Polish & Advanced Monitoring (Minggu 9 - 10)
-Target Selesai: Fitur 17 (Kesehatan Sensor), Fitur 18 (Peringatan Mekanik), Fitur 19 (Monitoring Daya), Fitur 20 (Peta Tong Sampah), Fitur 21 (Analitik Data).
+- Sprint 2: "Connected Trashcan" (IoT & Konektivitas)
+Fokus pada komunikasi alat dengan aplikasi.
+
+Target (Goal): Petugas bisa tahu lewat aplikasi kalau tong sampah mulai penuh.
+
+Fitur yang diambil:
+- Fitur 3: Monitoring Kapasitas Spesifik.
+- Fitur 15: Notifikasi Tong Sampah Penuh (ke aplikasi).
+- Fitur 12: Sistem Login Terdaftar (agar petugas bisa masuk ke aplikasi).
+- Fitur 16: Dashboard Progress (tampilan visual di HP).
+
+Ini adalah nilai jual utama Smart Trashcan. Memberi tahu status tanpa harus mendatangi lokasi.
+
+- Sprint 3: "Security & Guard" (Keamanan & Akses)
+Fokus pada perlindungan alat karena alat ini mahal (banyak sensor).
+
+Target (Goal): Hanya orang tertentu yang bisa buka alat, dan alat aman dari pencurian.
+
+Fitur yang diambil:
+- Fitur 7: Verifikasi Akses RFID (untuk buka fisik tong).
+- Fitur 10: Pelacakan Lokasi/GPS.
+- Fitur 9: Sirine Peringatan.
+- Fitur 14: Peringatan Akses Ditolak.
+
+Kenapa? Sebelum alat disebar ke tempat umum, fitur keamanan harus siap agar investasi hardware tidak hilang dicuri.
+
+- Sprint 4: "Health & Maintenance" (Ketahanan Sistem)
+Fokus pada pemeliharaan agar alat tidak cepat rusak.
+
+Target (Goal): Admin tahu kalau alat macet atau baterai mau habis sebelum terjadi kerusakan.
+
+Fitur yang diambil:
+- Fitur 4: Status Kesehatan Sensor.
+- Fitur 5: Peringatan Kemacetan Mekanik.
+- Fitur 6: Monitoring Daya/Baterai.
+- Fitur 19: Fitur Reset (setelah sampah diambil).
+
+- Sprint 5: "Advanced Control & Security"
+Fokus pada hak akses yang lebih detail dan fitur keamanan tingkat tinggi.
+
+Target (Goal): Mengatur siapa yang bisa melihat apa dan mengaktifkan proteksi fisik otomatis.
+
+Fitur yang diambil:
+- Fitur 13: Role-Based Access (Membedakan tampilan admin vs user umum).
+- Fitur 8: Kejut Listrik Preventif (Ini fitur paling berisiko, dikerjakan paling akhir).
+- Fitur 11: Notifikasi Darurat Polisi (Integrasi eksternal).
+
+Kenapa? Fitur ini butuh sistem dasar yang sudah sangat stabil di Sprint 1-4.
+
+- Sprint 6: "Analytics & Monitoring Center"
+Fokus pada pengolahan data untuk kebutuhan manajemen jangka panjang.
+
+Target (Goal): Memberikan gambaran besar kepada pimpinan melalui data dan peta.
+
+Fitur yang diambil:
+- Fitur 17: Peta Lokasi Tong Sampah (Visualisasi map untuk banyak titik).
+- Fitur 18: Log Aktivitas Operasional (Rekaman riwayat kerja).
+- Fitur 21: Laporan dan Analitik Data (Grafik volume sampah mingguan).
